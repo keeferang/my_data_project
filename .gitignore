@@ -1,0 +1,16 @@
+# Ignore the secret password file
+.env
+secrets.json
+
+# Ignore the "heavy" python libraries
+venv/
+__pycache__/
+
+# Ignore data files (anything ending in .csv or .parquet)
+*.csv
+*.parquet
+data/raw/*
+
+# Ignore OS junk (Mac/Windows hidden files)
+.DS_Store
+Thumbs.db
