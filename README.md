@@ -1,6 +1,6 @@
 # My First Data Project 
 
-This is a Python-based data engineering project. 
+This is a Python-based blank template project. 
 
 ### Setup Instructions
 1. **Create a virtual environment:** `python -m venv venv`
