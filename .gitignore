@@ -1,16 +1,28 @@
-# Ignore the secret password file
+# Secrets
 .env
 secrets.json
 
-# Ignore the "heavy" python libraries
+# Python environments and caches
 venv/
+.env/
+.venv/
 __pycache__/
+*.pyc
+*.pyo
 
-# Ignore data files (anything ending in .csv or .parquet)
+# Logs
+*.log
+
+# Data files
 *.csv
 *.parquet
 data/raw/*
 
-# Ignore OS junk (Mac/Windows hidden files)
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
 .DS_Store
 Thumbs.db
+*~
+*.swp
